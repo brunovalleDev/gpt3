@@ -70,6 +70,8 @@
 
   padding: 2.5rem 2rem;
   text-align: right;
+
+  z-index: 999;
 }
 
 .gpt3__navbar-mobilemenu_overlay-links {
