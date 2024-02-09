@@ -1,0 +1,114 @@
+.gpt3__features {
+  padding: 8.5rem;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.gpt3__features-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  flex: 1;
+}
+
+.gpt3__features-heading h2 {
+  font-family: var(--font-family);
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.gpt3__features-heading p {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: var(--color-subtext);
+}
+
+
+.gpt3__features-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+  flex: 1;
+  margin-top: 1.2rem;
+}
+
+.gpt3__features-content .gpt3__feature {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.gpt3__features-content .gpt3__feature-title {
+  width: 35%;
+}
+
+.gpt3__features-content .gpt3__feature-text {
+  max-width: 385px;
+}
+
+.gpt3__features-content .gpt3__feature-title h3 {
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 1585px) {
+  .gpt3__features-content .gpt3__feature {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .gpt3__features {
+    padding: 5.5rem;
+    gap: 3rem;
+  }
+
+  .gpt3__features-heading h2 {
+    font-size: 40px;
+    line-height: 50px;
+    min-width: 350px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .gpt3__features {
+    flex-direction: column;
+  }
+
+  .gpt3__features-heading h2 {
+    font-size: 40px;
+    line-height: 50px;
+    min-width: 350px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gpt3__features {
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .gpt3__features-heading h2 {
+    font-size: 28px;
+    line-height: 40px;
+    min-width: unset;
+  }
+}
