@@ -102,4 +102,8 @@
     text-align: left;
   }
 
+  .gpt3__blog-articles_groupB {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+
 }
