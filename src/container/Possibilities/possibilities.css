@@ -1,7 +1,3 @@
-.gpt3__possibilities>* {
-  border: 1px solid white;
-}
-
 .gpt3__possibilities {
   padding: 0rem 8.5rem 4rem;
   display: flex;
