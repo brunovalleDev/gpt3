@@ -14,11 +14,11 @@ const Navbar = () => {
       </div>
 
       <ul className="gpt3__navbar-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">What is GPT3?</a></li>
-        <li><a href="#">Open AI</a></li>
-        <li><a href="#">Case Studies</a></li>
-        <li><a href="#">Library</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#wgpt3">What is GPT3?</a></li>
+        <li><a href="#features">Open AI</a></li>
+        <li><a href="#possibilities">Case Studies</a></li>
+        <li><a href="#blog">Library</a></li>
       </ul>
 
       <div className="gpt3__navbar-sign">
@@ -39,11 +39,11 @@ const Navbar = () => {
           toggleMenu && (
             <div className="gpt3__navbar-mobilemenu_overlay scale-up-center">
               <ul className="gpt3__navbar-mobilemenu_overlay-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">What is GPT3?</a></li>
-                <li><a href="#">Open AI</a></li>
-                <li><a href="#">Case Studies</a></li>
-                <li><a href="#">Library</a></li>
+                <li><a href="#home" onClick={() => setToggleMenu(false)}>Home</a></li>
+                <li><a href="#wgpt3" onClick={() => setToggleMenu(false)}>What is GPT3?</a></li>
+                <li><a href="#features" onClick={() => setToggleMenu(false)}>Open AI</a></li>
+                <li><a href="#possibilities" onClick={() => setToggleMenu(false)}>Case Studies</a></li>
+                <li><a href="#blog" onClick={() => setToggleMenu(false)}>Library</a></li>
               </ul>
               <div className="gpt3__navbar-mobilemenu_overlay-sign">
                 <p>Sign in</p>

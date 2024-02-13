@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar} from './components';
+import {Navbar, Brands, CTA} from './components';
 import {Hero, WhatGPT3, Features, Possibilities, Blog, Footer} from './container/index';
 import './App.css'
 
@@ -10,9 +10,11 @@ const App = () => {
         <Navbar />
         <Hero />
       </div>
+      <Brands />
       <WhatGPT3 />
       <Features />
       <Possibilities />
+      <CTA />
       <Blog />
       <Footer />
     </div>

@@ -5,7 +5,7 @@ import './blog.css'
 
 const Blog = () => {
   return (
-    <div className="gpt3__blog">
+    <div className="gpt3__blog" id="blog">
       <div className="gpt3__blog-heading">
         <h2 className="gradient__text">A lot is happening,<br />
           We are blogging about it.</h2>

@@ -4,7 +4,7 @@ import './possibilities.css'
 
 const Possibilities = () => {
   return (
-    <div className="gpt3__possibilities">
+    <div className="gpt3__possibilities" id="possibilities">
       <div className="gpt3__possibilities-image">
         <img src={possibility} alt="possibility__img" />
       </div>

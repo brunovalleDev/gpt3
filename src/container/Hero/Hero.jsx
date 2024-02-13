@@ -5,7 +5,7 @@ import './hero.css'
 
 const Hero = () => {
   return (
-    <div className="gpt3__hero">
+    <div className="gpt3__hero" id="home">
       <div className="gpt3__hero-content">
         <h1 className="gradient__text">Let’s Build Something
           amazing with GPT-3
